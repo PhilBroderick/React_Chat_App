@@ -10,8 +10,6 @@ import DashboardComponent from './dashboard/dashboard';
 const firebase = require("firebase");
 require("firebase/firebase");
 
-console.log(process.env.REACT_APP_API_KEY);
-
 firebase.initializeApp({
     apiKey: process.env.REACT_APP_API_KEY,
     authDomain: process.env.REACT_APP_AUTH_DOMAIN,
